@@ -36,7 +36,7 @@ public class TvChannelDAOImpl implements TvChannelDAO {
 
 }
 	@Override
-	public void readChannel() {
+	public void getChannelById() {
 		
 		try {
 		EntityManagerFactory factory = Persistence.createEntityManagerFactory("tv");

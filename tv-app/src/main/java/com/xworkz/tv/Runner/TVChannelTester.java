@@ -18,7 +18,7 @@ public class TVChannelTester {
 		TvChannelDAO channelDAO = new TvChannelDAOImpl();
 		//channelDAO.saveChannel(channel);
 		//System.out.println("Saved Succussfully");
-		channelDAO.readChannel();
+		channelDAO.getChannelById();
 		
 		
 		
